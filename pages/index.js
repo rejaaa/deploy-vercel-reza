@@ -15,7 +15,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <h6 className={stles.description}>Edited by Reza</h6>
 
         <p className={styles.description}>
           Get started by editing{' '}
