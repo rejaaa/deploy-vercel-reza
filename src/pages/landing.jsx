@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function LandingPage() {
   return (
     <div className="w-full min-h-screen p-3 mx-auto lg:w-1/4">
@@ -5,7 +7,7 @@ export default function LandingPage() {
         <nav className="max-w-container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center flex-wrap">
             <div className="flex items-center">
-              <img src="https://logos-world.net/wp-content/uploads/2021/02/Facebook-Messenger-Logo.png" alt="logo" className="h-5" />
+              <Image src="https://logos-world.net/wp-content/uploads/2021/02/Facebook-Messenger-Logo.png" alt="logo" className="h-5" />
             </div>
             <div className="flex items-center ">
               <div className="px-3">Home</div>
